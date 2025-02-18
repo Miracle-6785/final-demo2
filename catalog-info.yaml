@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hellofs
+  description: Backstage component for hellofs
+  annotations:
+    github.com/project-slug: Miracle-6785/final-demo2
+    jenkins.io/job-full-name: hellofs-org/hellofs-job
+    sonarqube.org/project-key: default/hellofs
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-template: template:default/register-new-application
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
