@@ -4,6 +4,7 @@ metadata:
   name: demo1001
   description: Backstage component for demo1001
   annotations:
+    iap/app-info: "1/0823a130-a534-4203-af4c-e989716b66f4"
     github.com/project-slug: Miracle-6785/final-demo2
     jenkins.io/job-full-name: demo1001-org/demo1001-job
     sonarqube.org/project-key: default/demo1001
