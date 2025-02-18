@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo100
+  description: Backstage component for demo100
+  annotations:
+    github.com/project-slug: Miracle-6785/final-demo2
+    jenkins.io/job-full-name: demo100-org/demo100-job
+    sonarqube.org/project-key: default/demo100
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-template: template:default/register-new-application
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
