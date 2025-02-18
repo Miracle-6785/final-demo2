@@ -4,6 +4,7 @@ metadata:
   name: miraclesdsd
   description: Backstage component for miraclesdsd
   annotations:
+    dependencytrack/project-id: "a970b8f3-5e5b-46cd-a7c4-99d4bc44bced"
     iap/app-info: "1/38a637f8-9d9a-4341-a4e0-4473c0985527"
     github.com/project-slug: Miracle-6785/final-demo2
     jenkins.io/job-full-name: miraclesdsd-org/miraclesdsd-job
