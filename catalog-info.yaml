@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: final-demo-12
+  description: Backstage component for final-demo-12
+  annotations:
+    github.com/project-slug: Miracle-6785/final-demo2
+    jenkins.io/job-full-name: final-demo-12-org/final-demo-12-job
+    sonarqube.org/project-key: default/final-demo-12
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-template: template:default/register-new-application
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
