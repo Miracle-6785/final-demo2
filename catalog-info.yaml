@@ -4,6 +4,7 @@ metadata:
   name: edmo11
   description: Backstage component for edmo11
   annotations:
+    iap/app-info: "1/5d8c5651-3881-4c20-9020-75d367971194"
     github.com/project-slug: Miracle-6785/final-demo2
     jenkins.io/job-full-name: edmo11-org/edmo11-job
     sonarqube.org/project-key: default/edmo11
