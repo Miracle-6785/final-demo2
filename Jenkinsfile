@@ -11,14 +11,14 @@ pipeline {
         IS_USING_DEPENDENCY_TRACK = "true"
         IAP_ANNOTATION = "iap/app-info"
         DEPENDENCY_TRACK_ANNOTATION = "dependencytrack/project-id"
-        APP_NAME = "miraclesdsd"
-        BUCKET_NAME = "miraclesdsd-s3-bucket".toLowerCase()
+        APP_NAME = "hello"
+        BUCKET_NAME = "hello-s3-bucket".toLowerCase()
         AWS_REGION = "ap-southeast-1"
         IAP_BACKEND_URL = "http://18.140.172.235:8080"
         IAP_PROJECT_ID = "1"
         API_URL = "${IAP_BACKEND_URL}/1/applications"
         SCANNER_HOME = tool 'SonarScanner'
-        SONAR_PROJECT_KEY = "miraclesdsd"
+        SONAR_PROJECT_KEY = "hello"
         SONAR_BASE_URL = "http://18.140.158.137:8083"
         DEPENDENCE_BASE_URL = "http://18.139.189.32:8081"
         BACKSTAGE_BE_BASE_URL = "https://dc91-113-190-44-93.ngrok-free.app"
@@ -38,7 +38,7 @@ pipeline {
                 echo "❌ Skipping execution. This branch is not main."
                 script {
                     currentBuild.result = 'SUCCESS'
-                    return
+                    error("Pipeline stopped: Not on main branch.")
                 }
             }
         }
