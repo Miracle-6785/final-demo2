@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: miraclesdsd
+  description: Backstage component for miraclesdsd
+  annotations:
+    github.com/project-slug: Miracle-6785/final-demo2
+    jenkins.io/job-full-name: miraclesdsd-org/miraclesdsd-job
+    sonarqube.org/project-key: default/miraclesdsd
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-template: template:default/register-new-application
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
