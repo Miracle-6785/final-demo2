@@ -4,6 +4,7 @@ metadata:
   name: import-repo
   description: Backstage component for import-repo
   annotations:
+    iap/app-info: "1/3c09e03a-6ace-4dec-8f4e-29ca240273a3"
     github.com/project-slug: Miracle-6785/final-demo2
     jenkins.io/job-full-name: import-repo-org/import-repo-job
     sonarqube.org/project-key: default/import-repo
