@@ -4,6 +4,7 @@ metadata:
   name: edmo120
   description: Backstage component for edmo120
   annotations:
+    dependencytrack/project-id: "b03fc3d4-0b3e-4675-b062-4a8b33052133"
     iap/app-info: "1/63636ee9-2f7b-4d68-9de3-b701436c8e4c"
     github.com/project-slug: Miracle-6785/final-demo2
     jenkins.io/job-full-name: edmo120-org/edmo120-job
