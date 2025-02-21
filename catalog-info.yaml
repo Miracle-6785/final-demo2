@@ -4,6 +4,7 @@ metadata:
   name: demo28413
   description: Backstage component for demo28413
   annotations:
+    dependencytrack/project-id: "e0c29b6c-c531-4714-8139-2d436bd500e7"
     iap/app-info: "1/e6ab8b32-a7c9-4cc0-927d-12132e55c6f2"
     github.com/project-slug: Miracle-6785/final-demo2
     jenkins.io/job-full-name: demo28413-org/demo28413-job
