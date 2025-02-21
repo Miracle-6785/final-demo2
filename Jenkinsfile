@@ -11,17 +11,17 @@ pipeline {
         IS_USING_DEPENDENCY_TRACK = "true"
         IAP_ANNOTATION = "iap/app-info"
         DEPENDENCY_TRACK_ANNOTATION = "dependencytrack/project-id"
-        APP_NAME = "import-repo"
-        BUCKET_NAME = "import-repo-s3-bucket".toLowerCase()
+        APP_NAME = "demo28413"
+        BUCKET_NAME = "demo28413-s3-bucket".toLowerCase()
         AWS_REGION = "ap-southeast-1"
         IAP_BACKEND_URL = "http://18.140.172.235:8080"
         IAP_PROJECT_ID = "1"
         API_URL = "${IAP_BACKEND_URL}/1/applications"
         SCANNER_HOME = tool 'SonarScanner'
-        SONAR_PROJECT_KEY = "import-repo"
+        SONAR_PROJECT_KEY = "demo28413"
         SONAR_BASE_URL = "http://18.140.158.137:8083"
         DEPENDENCE_BASE_URL = "http://18.139.189.32:8081"
-        BACKSTAGE_BE_BASE_URL = "https://0bb7-2a09-bac1-7aa0-50-00-17-377.ngrok-free.app"
+        BACKSTAGE_BE_BASE_URL = "https://2455-2a09-bac1-7ae0-50-00-3d0-40.ngrok-free.app"
         FILE_PATH = "catalog-info.yaml"
     }
 
